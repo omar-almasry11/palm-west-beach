@@ -68,28 +68,3 @@ document.querySelector('.swiper-button-next').addEventListener('click', function
 document.querySelector('.swiper-button-prev').addEventListener('click', function() {
   console.log('Previous button clicked');
 });
-
-//intro section slider
-var swiper = new Swiper('.swiper-2', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
-  spaceBetween: 32,
-  grabCursor: true,
-  speed: 0,
-  pagination: {
-    el: '.swiper-pagination-2',
-    type: 'bullets',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next-2',
-    prevEl: '.swiper-button-prev-2',
-  },
-  breakpoints: {
-    1: {
-      slidesPerView: 2,
-      spaceBetween: 32
-    },
-  }
-});
