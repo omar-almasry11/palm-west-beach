@@ -1,6 +1,6 @@
 
 //The homepage hero section slider
-const swiper = new Swiper('.swiper', {
+var swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
@@ -70,7 +70,7 @@ document.querySelector('.swiper-button-prev').addEventListener('click', function
 });
 
 //intro section slider
-const swiper = new Swiper('.swiper-container-2', {
+var swiper = new Swiper('.swiper-container-2', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
