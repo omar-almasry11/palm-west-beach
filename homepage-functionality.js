@@ -70,7 +70,7 @@ document.querySelector('.swiper-button-prev').addEventListener('click', function
 });
 
 //intro section slider
-const swiper-2 = new Swiper('.swiper-2', {
+const swiper = new Swiper('.swiper-container-2', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
