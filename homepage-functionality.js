@@ -1,7 +1,3 @@
-
-alert("Hello! I am an alert box!!");
-
-/*
 //The homepage hero section slider
 const swiper = new Swiper('.swiper', {
   // Optional parameters
@@ -71,4 +67,3 @@ document.querySelector('.swiper-button-next').addEventListener('click', function
 document.querySelector('.swiper-button-prev').addEventListener('click', function() {
   console.log('Previous button clicked');
 });
-*/
